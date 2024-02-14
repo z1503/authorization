@@ -57,10 +57,11 @@ class FirstRoute extends StatelessWidget {
               },
               child: const Text('Войти',
               style: TextStyle(
-              color: Color.fromARGB(255, 119, 176, 39)
+              color: Color.fromARGB(255, 119, 176, 39)             
               )
               ),
             ),
+            const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
